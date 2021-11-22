@@ -1,0 +1,29 @@
+{
+  "name": "enesisparkingscannerbackend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "apisauce": "^2.1.1",
+    "axios": "^0.24.0",
+    "barcode": "^0.1.0",
+    "body-parser": "^1.19.0",
+    "canvas": "^2.8.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "jsbarcode": "^3.11.5",
+    "mssql": "^7.2.1",
+    "socket.io": "^4.3.1"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.24.0"
+  }
+}
